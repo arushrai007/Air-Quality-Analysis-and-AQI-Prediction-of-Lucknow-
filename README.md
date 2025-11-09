@@ -37,19 +37,3 @@ This work serves as a blueprint for data-driven environmental policy and public 
 * **Statistical Analysis:** SciPy
 
 ---
-
-## 📈 Methodology & Workflow
-
-This project follows a structured data science workflow, from data cleaning to model deployment.
-
-```mermaid
-graph TD
-    A[Data Collection & Loading] --> B(Data Preprocessing);
-    B --> C[Imputation of Missing Values];
-    C --> D[Outlier Detection (Z-score)];
-    D --> E[Exploratory Data Analysis (EDA)];
-    E --> F[Correlation & Statistical Testing];
-    F --> G[Feature Scaling (StandardScaler)];
-    G --> H(Model Training: Linear Regression);
-    H --> I[Model Evaluation (R² & MSE)];
-    I --> J[Prediction & Insight Generation];
